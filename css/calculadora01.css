@@ -1,0 +1,44 @@
+body {
+    background-color: dimgrey;
+    text-align: center;
+}
+
+#campos {
+    background-color: beige;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    padding-top: 10px;
+}
+
+input {
+    padding: 10px;
+    border: solid;
+    border-radius: 15px;
+    border-color: blueviolet;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button {
+    padding: 5px;
+    border:  blueviolet solid;
+    border-radius: 10px;
+    background-color: blueviolet;
+    margin-top: 10px;
+    cursor: pointer;
+}   
+
+.button {
+    width: 200px;
+}
+
+.table {
+
+}
+
+table {
+    
+}

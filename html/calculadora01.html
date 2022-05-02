@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Calculadora</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/calculadora01.css">
+</head>
+
+<body>
+    <!-- 
+        @author: Christian Lopes de Oliveira
+        @objetivo: Criando uma calculadora com lista de calculos e a soma total dos resultados.
+        @tecnologias: HTML, js, CSS e DOM. 
+        @date: 02/05/2022
+    -->
+    <div id="campos">
+        <h2>Calculadora de soma</h2>
+        <input type="text" name="campo1" id="campo1" placeholder="Número">
+        <br>
+        <input type="text" name="campo2" id="campo2" placeholder="Número">
+        <br>
+        <button class="button button1" onclick="soma()">Calcular</button>
+        <br>
+        <br>
+        <label id="lb01"></label>
+        
+    </div>
+    <section>
+        <hr>
+        <div class="table">
+            <table id="tabela">
+                <thead>
+                    <tr>
+                        <th>1º número</th>
+                        <th>2º número</th>
+                        <th>Soma</th>
+                    </tr>
+                </thead>
+                <tbody id="table-tbody">
+
+                </tbody>
+                <tfoot id="table-tfoot">
+
+                </tfoot>
+            </table>
+        </div>
+    </section>
+    <script src="../js/calculadora01.js"></script>
+</body>
+
+</html>
