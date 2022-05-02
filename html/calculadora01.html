@@ -14,22 +14,25 @@
         @tecnologias: HTML, js, CSS e DOM. 
         @date: 02/05/2022
     -->
-    <div id="campos">
-        <h2>Calculadora de soma</h2>
-        <input type="text" name="campo1" id="campo1" placeholder="Número">
-        <br>
-        <input type="text" name="campo2" id="campo2" placeholder="Número">
-        <br>
-        <button class="button button1" onclick="soma()">Calcular</button>
-        <br>
-        <br>
-        <label id="lb01"></label>
-        
+    <div class ="container-calculadora">
+        <div class ="box-campos">
+            <h2>Calculadora de soma</h2>
+            <input type="text" name="campo1" id="campo1" placeholder="Número">
+            <br>
+            <input type="text" name="campo2" id="campo2" placeholder="Número">
+            <br>
+            <button class="button button1" onclick="soma()">Calcular</button>
+            <br>
+            <br>
+            <label id="lb01"></label>
+        </div>
     </div>
-    <section>
-        <hr>
-        <div class="table">
-            <table id="tabela">
+<section>
+    <hr>
+    <h2 class="titulo">Resultados</h2>
+    <div class="container-resultado">
+        <div class="box-resultado">
+            <table class="tabela">
                 <thead>
                     <tr>
                         <th>1º número</th>
@@ -40,12 +43,14 @@
                 <tbody id="table-tbody">
 
                 </tbody>
-                <tfoot id="table-tfoot">
+                <tfoot id="table-tfoot" class="table-tfoot">
 
                 </tfoot>
             </table>
         </div>
-    </section>
+    </div>
+</section>
+    
     <script src="../js/calculadora01.js"></script>
 </body>
 
