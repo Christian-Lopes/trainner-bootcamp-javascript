@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Teste 01</title>
+        <link rel="stylesheet" href="css/style01.css">
+    </head>
+    <body>
+        <h2>Teste 01</h2>
+        <p id="demo"></p>
+        <hr>
+
+        <h2>Teste 02</h2>
+        <p id="demo2">Pegando o elemento por Id.</p>
+        <p class="p1"></p>
+        <p>Teste com Tag.</p>
+        <hr>
+
+        <h2>Formulário</h2>
+        <form action="" name="frm1">
+            First Name: <input type="text" name="fname"><br>
+            Last Name: <input type="text" name="lname"><br>
+            <input onclick="nome()" type="button" value="Salvar">
+        </form>
+
+        <p id="nome"></p>
+        <hr>
+
+        <h2>Data</h2>
+        <p id="data"></p>
+        <hr>
+ 
+        <h2>Document.write()</h2>
+        <p>Data com document.write().</p>
+        <script>
+            document.write(Date());
+        </script>
+        <hr>
+
+        <h2>Formulário Validação.</h2>
+        <form name="validar" onsubmit="validarForm()">
+            Nome: <input type="text" name="fname">
+            <input type="submit" value="Salvar">
+        </form>
+        <hr>
+
+        <h2>Formulário Validação de número de 1 até 10.</h2>
+        <p>Informe um número</p>
+        <input id="number">
+        <button type="button" onclick="validarNumero()">Enviar</button>
+        <p id="numero"></p>
+        <hr>
+
+        <h2>CSS DOM</h2>
+        <h3>Mudar a cor do elemento.</h3>
+        <p id="cor">Mudar a cor.</p>
+        <button type="button" onclick="mudarCor()">Cor vermelho</button>
+
+
+
+        <script src="js/script01.js"></script>
+    </body>
+</html>
