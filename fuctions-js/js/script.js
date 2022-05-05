@@ -5,10 +5,16 @@
 */
 
 //Soma de dois números
-function soma(){
+function soma() {
+    converterParaNumero();
+    const soma = n1 + n2;
+    return document.getElementById("soma").innerHTML = "Resultado: " + soma;
+}
+
+function converterParaNumero(){
     const n1 = parseInt(document.getElementById("n1").value);
     const n2 = parseInt(document.getElementById("n2").value);
-   
-    const soma = n1 + n2;
-    return document.getElementById("soma").innerHTML = "Resultado: " + soma;    
-} 
+}
+
+//Subtração dentro de uma variável
+
