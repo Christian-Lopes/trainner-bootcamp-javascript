@@ -1,0 +1,49 @@
+body {
+    background-color: dimgray;
+}
+
+h1 {
+    color: indigo;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    background-color: darkgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    color: mintcream;
+    padding: 5px;
+}
+
+p {
+    color: indigo;
+}
+
+input {
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: large;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: larger;
+}
